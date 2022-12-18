@@ -60,7 +60,7 @@ opts.max_iter        = 100;
 
 [Factor,detected_periods,running_time] = LAPIS(data_matrix,opts);
 
-
+disp(detected_periods)
 
 
 
